@@ -29,7 +29,7 @@ public class Main {
         Thread.sleep(3000);
         password_input.sendKeys("secret_sauce");
         login_btn.click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         WebElement button = wait.until(ExpectedConditions.elementToBeClickable(addCardBtn));
         button.click();
