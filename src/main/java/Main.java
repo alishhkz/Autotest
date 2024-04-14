@@ -25,7 +25,7 @@ public class Main {
         By busketBtn = By.xpath("//a[@class='shopping_cart_link']");
         By continueBtn = By.xpath("//button[@id='continue-shopping']");
 
-        username_input.sendKeys("visual_user");
+        username_input.sendKeys("standard_user");
         Thread.sleep(3000);
         password_input.sendKeys("secret_sauce");
         login_btn.click();
